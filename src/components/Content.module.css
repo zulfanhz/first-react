@@ -5,7 +5,7 @@
     color: black;
     background: transparent;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     font-size: 13px;
     font-weight: bold;
     border-radius: 30px;
@@ -17,13 +17,13 @@
 }
 
 .content {
-    margin-top: 8%;
+    margin-top: 7%;
     margin-left: 10%;
     max-width: 450px;
 }
 .content button {
     padding: 5pt 9pt;
-    font-size: 10pt;
+    font-size: 8pt;
     font-weight: bold;
     border-radius: 5pt;
     border-color: transparent;
@@ -31,17 +31,17 @@
     background: rgb(37, 201, 15);
 }
 .content h1 {
-    font-size: 70px;
+    font-size: 57px;
     color: #222;
 }
 .content p {
     margin:  20px 0 30px;
     color: gray;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 .content .btn {
-    padding: 10px 50px;
-    font-size: 20px;
+    padding: 10px 40px;
+    font-size: 15px;
 
 }
 .btnleft {
@@ -52,7 +52,7 @@
     border-top-right-radius: 30px;
 }
 .img {
-    width: 500px;
+    width: 400px;
     position: absolute;
     bottom: 45px;
     right: 15%;
