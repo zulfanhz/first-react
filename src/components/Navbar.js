@@ -1,11 +1,10 @@
 import React from 'react'
-import HeaderCSS from './Header.module.css'
 import Logo from '../assets/logo.png'
 
 const Navbar = () => {
     return (
         <nav>
-            <img src={Logo} className={HeaderCSS.logo} />
+            <img src={Logo} className="logo" />
             <ul>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Pricing</a></li>
@@ -14,7 +13,7 @@ const Navbar = () => {
             </ul>
             <div>
                 {/* <a href="#" class="login-btn">Log In</a> */}
-                <a href="#" className={HeaderCSS.btn}>BUY NOW</a>
+                <a href="#" className="btn">BUY NOW</a>
             </div>
         </nav>
     )
