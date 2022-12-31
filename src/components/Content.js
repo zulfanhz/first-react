@@ -1,5 +1,6 @@
 import React from 'react'
 import Picture from '../assets/pic.png'
+import Cv from '../assets/cv.pdf'
 
 const Content = () => {
     return (
@@ -9,7 +10,7 @@ const Content = () => {
                 <h1 className="anim">Browse all assets smoothly.</h1>
                 <p className="anim">Your solution to organizing design assets.</p>
                 <div className="btnleft">
-                    <a href="#" className="btn anim">Join Now</a>
+                    <a href={Cv} className="btn anim">Download Resume</a>
                     <a href="#" className="btn anim">Watch Now</a>
                 </div>
             </div>
